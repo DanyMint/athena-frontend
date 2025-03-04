@@ -1,7 +1,7 @@
 import axios from "axios";
 import { message } from "antd";
 
-export const baseBackEndURL = "http://192.168.100.250/api/";
+export const baseBackEndURL = import.meta.env.VITE_BACKEND_API_URL;
 
 /**
  * Represents a book.
