@@ -14,7 +14,6 @@ import Entrants from "./pages/Entrants";
 import CreateReport from "./pages/CreateReport";
 import Settings from "./pages/Settings";
 import TemplatePage from "./pages/Template";
-import Test from "./components/test"
 
 
 const { Header, Content, Footer, Sider } = Layout;
@@ -102,7 +101,6 @@ const App = () => {
               <Route path="/create-report" element={<CreateReport />} />
               <Route path="/settings" element={<Settings />} />
               <Route path="/settings/template" element={<TemplatePage />} /> {/* Default Route */}
-              <Route path="/test" element={<Test />} /> 
               <Route path="/" element={<Analytics />} /> {/* Default Route */}
             </Routes>
           </Content>

@@ -11,11 +11,9 @@
   },
   "dependencies": {
     "@ant-design/pro-components": "^2.8.2",
-    "@handsontable/react": "^14.6.1",
     "antd": "^5.22.7",
     "axios": "^1.7.8",
     "dayjs": "^1.11.13",
-    "handsontable": "^14.6.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.27.0"

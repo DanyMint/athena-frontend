@@ -12,8 +12,6 @@ import {
   Select,
 } from "antd";
 
-// import { useHotTableRef } from "./HotTableRef";
-
 const TitleWithEdit = ({ templateName, setTemplateName }) => {
   const [isEditing, setIsEditing] = useState(false);
 
@@ -81,13 +79,11 @@ const FormatMenu = ({
   fonts,
   selectedFont,
   handleSelectCellFontFamily,
-
 }) => {
   const formattedFonts = fonts.map((font) => ({
     value: font,
     label: font,
   }));
-
 
   return (
     <Row align="middle" gutter={[8, 8]}>
@@ -191,7 +187,6 @@ export const CardHeader = ({
             fonts={fonts}
             selectedFont={selectedFont}
             handleSelectCellFontFamily={handleSelectCellFontFamily}
-
           />
         </Col>
       </Row>
