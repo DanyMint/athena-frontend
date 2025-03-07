@@ -1,5 +1,8 @@
 #!/bin/bash
-export $(cat .env | xargs)
+set -a
+source .env
+set +a
+
 
 
 sudo mkdir -p $VITE_BUILD_OUTPUT_PATH
