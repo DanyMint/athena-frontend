@@ -9,6 +9,7 @@ Backend part [here](https://github.com/DanyMint/athena-backend)
 - GNU Linux
 - Node.js
 - npm
+- nginx
 
 ## Installation and configurate 
 
