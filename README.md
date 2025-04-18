@@ -1,3 +1,7 @@
+## ⚠️ **This repository is no longer supported.**
+
+Acutal project repository https://github.com/DanyMint/athena 
+
 # The frontend part of Athena. 
 
 Athena is a small application to keep track of applicants. This repository contains the code of the frontend part of the application. It is written in React + Ant Design + TailwindCSS 
